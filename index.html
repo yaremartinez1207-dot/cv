@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV | Yaretzi Hernández</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff4ef;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #ff8f7a;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header h3 {
+            margin: 5px 0;
+            font-weight: normal;
+        }
+
+        header p {
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        /* CONTENEDOR */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* SECCIONES */
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #ff6f61;
+            border-left: 6px solid #ff6f61;
+            padding-left: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="imagen.jpeg" alt="Yaretzi Hernández">
+    <div>
+        <h1>Yaretzi Hernández</h1>
+        <h3>Área de Finanzas</h3>
+        <p>📧 hernandezyaretzi875@gmail.com</p>
+        <p>📞 722 672 5438</p>
+        <p>📍 México</p>
+    </div>
+</header>
+
+<!-- CONTENIDO -->
+<div class="container">
+
+    <div class="section">
+        <h2>Perfil Profesional</h2>
+        <p>
+            Estudiante interesada en el área de Finanzas, con conocimientos básicos en
+            administración, control financiero y manejo de información contable.
+            Me considero una persona responsable, organizada y con disposición para
+            aprender y desarrollarme profesionalmente.
+        </p>
+    </div>
+
+    <div class="grid">
+
+        <div class="section">
+            <h2>Experiencia</h2>
+            <p><strong>Auxiliar en Finanzas</strong></p>
+            <p><em>Empresa de Prótesis – 2025</em></p>
+            <ul>
+                <li>Registro de ingresos y egresos.</li>
+                <li>Organización de documentos financieros.</li>
+                <li>Elaboración de reportes básicos.</li>
+                <li>Control de gastos y presupuestos.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Educación</h2>
+            <p><strong>Bachillerato / Carrera Técnica</strong></p>
+            <p>Institución: Por definir</p>
+            <p>Estado: En curso / Finalizado</p>
+        </div>
+
+    </div>
+
+    <div class="grid">
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Organización y responsabilidad</li>
+                <li>Manejo básico de Excel</li>
+                <li>Control de gastos</li>
+                <li>Trabajo en equipo</li>
+                <li>Atención al detalle</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español</li>
+                <li>Inglés básico</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Proyectos Académicos</h2>
+        <ul>
+            <li>Registros financieros escolares.</li>
+            <li>Simulación de presupuestos.</li>
+            <li>Trabajos académicos de finanzas y administración.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Cursos y Certificaciones</h2>
+        <ul>
+            <li>Curso básico de Excel</li>
+            <li>Introducción a Finanzas</li>
+            <li>Ética profesional</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
